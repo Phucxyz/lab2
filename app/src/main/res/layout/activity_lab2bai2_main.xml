@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lab2bai2.Lab2bai2MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtdai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chieu dai"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chieu rong"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn3"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="ket qua"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="339dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="20dp"
+        android:text="Result"
+        android:textSize="20dp" />
+
+</LinearLayout>
